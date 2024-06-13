@@ -42,7 +42,7 @@ public class CurrencyConverter {
 	
 	private static double getExchangeRate(String currentCurrency, String targetCurrency) {
         try {
-            String API_KEY = "API_KEY";
+            String API_KEY = "be086c01da951d4099c89a5e";
             String BASE_URL = "https://v6.exchangerate-api.com/v6/" + API_KEY + "/latest/" + currentCurrency;
             URL url = new URL(BASE_URL);
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
